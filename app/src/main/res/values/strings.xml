@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">SmartMeeting</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="passwordHint">Password</string>
+    <string name="emailHint">E-mail</string>
+    <string name="usernameHint">Username</string>
+    <string name="loginButton">Log in</string>
+    <string name="conformPasswordHint">Confirm password</string>
+    <string name="registerButton">Create new account</string>
+    <string name="preLoginDescription">Create new account or log in</string>
+    <string name="welcomeText">Welcome to SmartMeeting app!</string>
+    <string name="aboutUs">In this app you can\'t do anything, but we will try to add more features for you! </string>
+</resources>
