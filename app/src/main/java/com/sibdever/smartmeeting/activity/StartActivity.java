@@ -20,6 +20,7 @@ public class StartActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_start);
+        findViewById(R.id.imageView).setBackgroundResource(R.drawable.smart_meetings);
         service = new AuthService(viewModel, this);
         viewModel.getAuthResponse().observe(this, (value) -> {
             if (value.getResponseStatus().equals(ResponseStatus.OK)) {
